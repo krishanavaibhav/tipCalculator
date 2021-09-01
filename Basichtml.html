@@ -1,35 +1,36 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href  = "style.css">
-        <script src=  "app.js"></script>
+        <link rel = "stylesheet" href = "style.css">
+        <script type = "text/javascript" src = "app.js"></script>
     </head>
     <body>
         <div class = "container">
-            <input type = "text" class = "screen">
-            <div class  ="buttons">
-                <button class = "numbers" data-num = "7">7</button>
-                <button class = "numbers" data-num = "8">8</button>
-                <button class = "numbers" data-num = "9">9</button>
-                <button class = "btn numbers" data-num = "*">*</button>
+            <h1>TIP CALCULATOR</h1>
+            <div class = "wrapper">
+                <p>Bill Amount?</p>
+                <input type = "text" id = "amount" placeholder="Amount to be paid"> ₹
 
-                <button class = "numbers" data-num = "4">4</button>
-                <button class = "numbers" data-num = "5">5</button>
-                <button class = "numbers" data-num = "6">6</button>
-                <button class = "btn numbers" data-num = "/">/</button>
+                <p>How was the service?</p>
+                <select id = "services">
+                    <option selected disabled hidden>Select</option>
+                    <option value = "0.25">25% - Excellent</option>
+                    <option value = "0.20">20% - Very Good</option>
+                    <option value = "0.15">15% - Good</option>
+                    <option value = "0.10">10% - Bad</option>
+                    <option value = "0.05">5% - Worst</option>
+                </select>       
+                
+                <p>Number of peoples</p>
+                <input type = "text" id = "persons" placeholder="Number of people sharing the bill">
+                <button id = "calculate">Calculate</button>
+            </div>
 
-                <button class = "numbers" data-num = "1">1</button>
-                <button class = "numbers" data-num = "2">2</button>
-                <button class = "numbers" data-num = "3">3</button>
-                <button class = "btn numbers" data-num = "-">-</button>
-
-                <button class = "numbers" data-num = ".">.</button>
-                <button class = "numbers" data-num = "0">0</button>
-                <button class = "btn-red">C</button>
-                <button class = "btn numbers" data-num = "+">+</button>
-
-                <button class = "btn-green">=</button>
-
+            <div class = "tip">
+                <p>Tip Amount</p>
+                <span id = "total">0</span>₹
+                <span id = "each">each</span>
             </div>
         </div>
     </body>
-</html> 
+</html>
