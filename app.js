@@ -8,7 +8,7 @@ function calculateTip(){
     let service = document.querySelector('#tip').value;
     
     console.log(service);
-    if(amount === '' && service === 'Select'){
+    if(amount === '' && service === ''){
         alert("Please enter valid values");
         return;
     }
@@ -19,7 +19,7 @@ function calculateTip(){
         document.querySelector('#each').style.display = 'block';
     }
 
-    let total = (amount * service) / persons;
+    let total = (amount * tip) / persons;
     console.log(total);
     total = Math.round(total * 100)/ 100;
     total = total.toFixed(2);
