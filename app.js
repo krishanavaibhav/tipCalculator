@@ -29,6 +29,7 @@ function calculateTip(){
     console.log(amt);
 
     document.querySelector('.tip').styling.display = 'block';
-    document.querySelector('#total').Basichtml = total;
+    document.querySelector('#total').innerHTML = total;
+    document.querySelector('#amt').innerHTML=amt;
 }
 
