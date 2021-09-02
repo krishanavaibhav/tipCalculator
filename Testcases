@@ -1,0 +1,42 @@
+TEST CASES FOR TIP CALCULATOR
+
+
+Test Case 1 -> In the tipCalculator, the value of bill should always in positive.
+
+Test Case 2 -> In the tipCalculator, the value of tip% should always in positive.
+
+Test Case 3 -> the value of number of peoples field always positive.
+
+Test Case 4 -> the value of number of People is not in fraction.
+
+Test Case 5 -> The tip per person should be less than bill.
+
+Test Case 6-> The application should show the final tip amount and the final calculated bill.
+
+Test Case 7-> The application should show the value of tip per person and total per person.
+
+Test case 8-> The application should only accept numeric values.
+
+Test case 9-> The application should works fine even after maximising the window.
+
+Test case 10-> The application should works fine even after minimising the window.
+
+Test case 11-> The application should not accept any special charater as input.
+
+Test case 12->It must exit the application using Window close button.
+
+Test case 13->The application should display the output in the respected fields without any ambiguity.
+
+Test case 14->The application should allow to modify the bill amount,tip % and the number of person.
+
+Test case 15->The calculate button should work perfectly fine.
+
+Test case 16->The calculate button should give a numeric value as output.
+
+Test case 17->The maximum limit of tip % and no of people must be hundred(100) for calculation.
+
+Test case 18->The application should allow user to increase or decreasse the tip% and the number of people.
+
+Test case 19-> The application should not accept any negative number as input.
+
+Test case 20-> The UI should be intractive or attractive.
