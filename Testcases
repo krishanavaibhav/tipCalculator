@@ -1,6 +1,7 @@
 TEST CASES FOR TIP CALCULATOR
 
 
+
 Test Case 1 -> In the tipCalculator, the value of bill should always in positive.
 
 Test Case 2 -> In the tipCalculator, the value of tip% should always in positive.
