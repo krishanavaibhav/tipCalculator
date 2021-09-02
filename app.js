@@ -5,7 +5,7 @@ window.onload = () =>{
 function calculateTip(){
     let amount = document.querySelector('#amount').value;
     let persons = document.querySelector('#persons').value;
-    let service = document.querySelector('#services').value;
+    let service = document.querySelector('#tip').value;
     
     console.log(service);
     if(amount === '' && service === 'Select'){
