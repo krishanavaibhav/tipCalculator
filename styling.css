@@ -34,20 +34,16 @@ h1{
     padding: 20px;
 }
 
-input, select{
+input, {
     width: 80%;
     border: none;
     border-bottom: 1px solid #0074D9;
     padding: 10px ;
 }
 
-input:focus, select:focus{
+input:focus, {
     border: 1px solid #0074D9;
     outline: none;
-}
-
-select{
-    width: 88% !important;
 }
 
 button{
