@@ -24,6 +24,9 @@ function calculateTip(){
     total = Math.round(total * 100)/ 100;
     total = total.toFixed(2);
     console.log(total);
+    
+    let amt=(amount/persons)+total;
+    console.log(amt);
 
     document.querySelector('.tip').styling.display = 'block';
     document.querySelector('#total').Basichtml = total;
