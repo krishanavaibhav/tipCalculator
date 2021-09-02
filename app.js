@@ -5,7 +5,7 @@ window.onload = () =>{
 function calculateTip(){
     let amount = document.querySelector('#amount').value;
     let persons = document.querySelector('#persons').value;
-    let service = document.querySelector('#tip').value;
+    let service = document.querySelector('#services').value;
     
     console.log(service);
     if(amount === '' && service === ''){
@@ -19,7 +19,7 @@ function calculateTip(){
         document.querySelector('#each').style.display = 'block';
     }
 
-    let total = (amount * tip) / persons;
+    let total = (amount * service) / persons;
     console.log(total);
     total = Math.round(total * 100)/ 100;
     total = total.toFixed(2);
