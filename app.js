@@ -28,7 +28,7 @@ function calculateTip(){
     let amt=(amount/persons)+total;
     console.log(amt);
 
-    document.querySelector('.tip').styling.display = 'block';
+    document.querySelector('.tip').style.display = 'block';
     document.querySelector('#total').innerHTML = total;
     document.querySelector('#amt').innerHTML=amt;
 }
