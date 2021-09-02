@@ -25,7 +25,7 @@ function calculateTip(){
     total = total.toFixed(2);
     console.log(total);
 
-    document.querySelector('.tip').style.display = 'block';
-    document.querySelector('#total').innerHTML = total;
+    document.querySelector('.tip').styling.display = 'block';
+    document.querySelector('#total').Basichtml = total;
 }
 
